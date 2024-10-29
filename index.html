@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <div class="contenedor__logo">
+          <img class="cabecera__logo" src="assets/MM.png" alt="Logo">
+          <h1 class="cabecera__titulo">Maira Mora</h1>
+        </div>
+
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+        <img class="presentacion__foto" src="assets/profile.png" alt="Foto de perfil">
+        <div class="presentacion__contenedor">
+            <h2 class="presentacion__titulo">Hola, mi nombre es Maira Mora y construyo páginas web</h2>
+            <p class="presentacion__subtitulo">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
+            <!-- <ul class="redes">
+                <li class="redes__img"><a href="">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
+            </ul> -->
+
+    <div class="parent">
+        <div class="card">
+
+            <div class="bottom">
+
+                <div class="social-buttons-container">
+
+                    <!-- Botón Github -->
+
+                    <a class="social-button .social-button1" href="https://github.com/">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="svg">
+                        <path d="M32 6C17.641 6 6 17.641 6 32c0 12.277 8.512 22.56 19.955 25.286-.592-.141-1.179-.299-1.755-.479V50.85c0 0-.975.325-2.275.325-3.637 0-5.148-3.245-5.525-4.875-.229-.993-.827-1.934-1.469-2.509-.767-.684-1.126-.686-1.131-.92-.01-.491.658-.471.975-.471 1.625 0 2.857 1.729 3.429 2.623 1.417 2.207 2.938 2.577 3.721 2.577.975 0 1.817-.146 2.397-.426.268-1.888 1.108-3.57 2.478-4.774-6.097-1.219-10.4-4.716-10.4-10.4 0-2.928 1.175-5.619 3.133-7.792C19.333 23.641 19 22.494 19 20.625c0-1.235.086-2.751.65-4.225 0 0 3.708.026 7.205 3.338C28.469 19.268 30.196 19 32 19s3.531.268 5.145.738c3.497-3.312 7.205-3.338 7.205-3.338.567 1.474.65 2.99.65 4.225 0 2.015-.268 3.19-.432 3.697C46.466 26.475 47.6 29.124 47.6 32c0 5.684-4.303 9.181-10.4 10.4 1.628 1.43 2.6 3.513 2.6 5.85v8.557c-.576.181-1.162.338-1.755.479C49.488 54.56 58 44.277 58 32 58 17.641 46.359 6 32 6zM33.813 57.93C33.214 57.972 32.61 58 32 58 32.61 58 33.213 57.971 33.813 57.93zM37.786 57.346c-1.164.265-2.357.451-3.575.554C35.429 57.797 36.622 57.61 37.786 57.346zM32 58c-.61 0-1.214-.028-1.813-.07C30.787 57.971 31.39 58 32 58zM29.788 57.9c-1.217-.103-2.411-.289-3.574-.554C27.378 57.61 28.571 57.797 29.788 57.9z"></path>
+                      </svg>
+                    </a>
+
+                    <!-- Botón Linkedin -->
+
+                      <a class="social-button .social-button2" href="https://es.linkedin.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="svg">
+                          <path d="M 8 3.0097656 C 4.53 3.0097656 2.0097656 5.0892187 2.0097656 7.9492188 C 2.0097656 10.819219 4.59 12.990234 8 12.990234 C 11.47 12.990234 13.990234 10.870625 13.990234 7.890625 C 13.830234 5.020625 11.36 3.0097656 8 3.0097656 z M 3 15 C 2.45 15 2 15.45 2 16 L 2 45 C 2 45.55 2.45 46 3 46 L 13 46 C 13.55 46 14 45.55 14 45 L 14 16 C 14 15.45 13.55 15 13 15 L 3 15 z M 18 15 C 17.45 15 17 15.45 17 16 L 17 45 C 17 45.55 17.45 46 18 46 L 27 46 C 27.552 46 28 45.552 28 45 L 28 30 L 28 29.75 L 28 29.5 C 28 27.13 29.820625 25.199531 32.140625 25.019531 C 32.260625 24.999531 32.38 25 32.5 25 C 32.62 25 32.739375 24.999531 32.859375 25.019531 C 35.179375 25.199531 37 27.13 37 29.5 L 37 45 C 37 45.552 37.448 46 38 46 L 47 46 C 47.55 46 48 45.55 48 45 L 48 28 C 48 21.53 44.529063 15 36.789062 15 C 33.269062 15 30.61 16.360234 29 17.490234 L 29 16 C 29 15.45 28.55 15 28 15 L 18 15 z"></path>
+                        </svg>
+                      </a>
+
+                      <!-- Botón Instagram -->
+
+                      <a class="social-button .social-button3" href="https://www.instagram.com/">
+                        <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" class="svg">
+                            <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
+                        </svg>
+                      </a>
+
+                      <!-- Botón Currículo -->
+
+                      <a class="social-button .social-button1" href="CV-Ejemplo.pdf">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" class="svg">
+                          <path d="M 23.75 2 C 12.800781 2 6 8.820313 6 19.78125 C 6 21.34375 6.214844 22.882813 6.4375 24.53125 C 7.042969 28.972656 7.671875 33.578125 4 38.5625 C 3.839844 38.78125 3.765625 39.042969 3.8125 39.3125 C 3.859375 39.582031 4.023438 39.816406 4.25 39.96875 C 4.417969 40.078125 8.402344 42.679688 17.5 43.6875 C 19.804688 46.464844 22.449219 48 25 48 C 27.5625 48 30.226563 46.472656 32.53125 43.6875 C 41.625 42.671875 45.855469 40.109375 46.03125 40 C 46.273438 39.851563 46.417969 39.589844 46.46875 39.3125 C 46.519531 39.035156 46.457031 38.753906 46.28125 38.53125 C 42.554688 33.742188 43.054688 29.667969 43.59375 25.34375 C 43.785156 23.800781 44 22.195313 44 20.5625 C 44 14.027344 41.078125 6.410156 32.875 6.15625 C 29.402344 2.71875 26.007813 2 23.75 2 Z M 31.84375 17.34375 C 33.328125 18.921875 36 22.53125 36 28.28125 C 36 35.953125 31.234375 42.0625 31.1875 42.125 C 31.179688 42.136719 31.195313 42.144531 31.1875 42.15625 C 29.21875 44.628906 27.023438 46 25 46 C 22.972656 46 20.757813 44.621094 18.78125 42.125 C 18.773438 42.113281 18.757813 42.105469 18.75 42.09375 C 18.703125 42.050781 14 37.570313 14 31 C 14 25.996094 18.296875 24.945313 22.09375 24.03125 C 22.878906 23.84375 23.609375 23.675781 24.28125 23.46875 C 28.769531 22.078125 30.921875 19.125 31.84375 17.34375 Z M 19.5 28 C 18.671875 28 18 28.671875 18 29.5 C 18 30.328125 18.671875 31 19.5 31 C 20.328125 31 21 30.328125 21 29.5 C 21 28.671875 20.328125 28 19.5 28 Z M 30.5 28 C 29.671875 28 29 28.671875 29 29.5 C 29 30.328125 29.671875 31 30.5 31 C 31.328125 31 32 30.328125 32 29.5 C 32 28.671875 31.328125 28 30.5 28 Z"></path>
+                        </svg>
+                      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.</p>
+        <p class="sobre-mi__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
+        <!-- Firma opcional -->
+        <img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="habilidades__titulo">Habilidades</h2>
+        <ul class="habilidades__lista">
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/html.png" alt="HTML">
+                <p class="habilidades__nombre">HTML 5</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                <p class="habilidades__nombre">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <p class="habilidades__nombre">JavaScript</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/php_icon.png" alt="PHP">
+                <p class="habilidades__nombre">PHP</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/sql.png" alt="SQL">
+                <p class="habilidades__nombre">SQL</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/agility.png" alt="Practicar agility">
+                <p class="aficiones__nombre">Practicar agility</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/pintar.png" alt="Pintar">
+                <p class="aficiones__nombre">Pintar</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/musica.png" alt="Oír música">
+                <p class="aficiones__nombre">Oír música</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
+                <p class="aficiones__nombre">Ver series</p>
+            </li>
+            <li class="aficiones__elemento">
+                <img class="aficiones__icono" src="assets/camera_icon.png" alt="Tomar fotos">
+                <p class="aficiones__nombre">Tomar fotos</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/ufpr_logo.png" alt="UFPR">
+                <div>
+                    <h3 class="formacion__nombre">Análisis de datos</h3>
+                    <p class="formacion__detalle">2018 - UFPR</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <div>
+                    <h3 class="formacion__nombre">Formación en UX Design</h3>
+                    <p class="formacion__detalle">2019 - Alura</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/ufrj_logo.png" alt="UFRJ">
+                <div>
+                    <h3 class="formacion__nombre">Posgrado en diseño</h3>
+                    <p class="formacion__detalle">En curso - UFRJ</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Proyectos</h2>
+        <div class="proyectos__contenedor">
+
+          <div class="proyectos__elemento">
+            <div class="book">
+               <img class="proyecto__icono" src="assets/alura_play.png" alt="Proyecto Alura Play">
+               <div class="cover">
+                   <h3 class="proyectos__nombre">Proyecto 1: Alura Play</h3>
+                   <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
+               </div>
+           </div>
+              <!-- <h3 class="proyectos__nombre">Proyecto 1</h3>
+              <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p> -->
+          </div>
+          <div class="proyectos__elemento">
+              <!-- <h3 class="proyectos__nombre">Proyecto 2</h3>
+              <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p> -->
+              <div class="book">
+                 <img class="proyecto__icono" src="assets/encriptador.png" alt="Proyecto encriptador">
+                 <div class="cover">
+                     <h3 class="proyectos__nombre">Proyecto 2: Encriptador</h3>
+                     <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
+                 </div>
+             </div>
+          </div>
+          <div class="proyectos__elemento">
+              <!-- <h3 class="proyectos__nombre">Proyecto 2</h3>
+              <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p> -->
+              <div class="book">
+                 <img class="proyecto__icono" src="assets/forca_print.png" alt="Proyecto juego ahorcado">
+                 <div class="cover">
+                     <h3 class="proyectos__nombre">Proyecto 3: Ahorcado</h3>
+                     <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
+                 </div>
+             </div>
+          </div>
+
+        </div>
+
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <p>Tienes alguna pregunta o propuesta? Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+        <div class="contacto__contenedor">
+          <img class="contacto__icono" src="assets/sobre.png" alt="Mensaje de correo">
+          <form class="contacto__formulario">
+              <input class="contacto__campo" type="text" placeholder="Nombre">
+              <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+              <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+              <!-- <button class="contacto__boton" type="submit">Enviar</button> -->
+
+              <button>
+                Enviar
+                <div class="star-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-5">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-6">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xml:space="preserve"
+                    version="1.1"
+                    style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                    viewBox="0 0 784.11 815.53"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        class="fil0"
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </button>
+
+          </form>
+
+        </div>
+
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>Desarrollado por: Maira Alejandra Mora Enríquez</p>
+    </footer>
+
+</body>
+    <script src="script.js"></script>
+</html>
